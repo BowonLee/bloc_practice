@@ -1,5 +1,7 @@
 import 'package:bloc/bloc.dart';
 
+/// 전역적으로 bloc 변경을 감지하는 옵저버이다
+///
 class CounterObserver extends BlocObserver {
   const CounterObserver();
 
